@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Avsnitt 14.1: Formulär</title>
+</head>
+<body>
+    <h1>Avsnitt 14.1: Formulär</h1>
+    <form action="" method="post">
+        <p>
+            <label for="name">Förnamn:</label>
+            <input type="text" name="name" id="name" required />
+        </p>
+
+        <p>
+                <label for="age">Ålder:</label>
+                <input type="number" name="age" id="age" required />
+        </p>
+
+        <p>
+                <label for="mail">Epost:</label>
+                <input type="email" name="mail" id="mail" required />
+        </p>
+
+        <p>
+                <label for="raw">Visa :</label>
+                <input type="checkbox" name="raw" id="raw" value="on" />
+        </p>
+
+        <p>
+                <input type="submit" value="Skicka" />
+        </p>
+    </form>
+</body>
+</html>
